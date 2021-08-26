@@ -18,7 +18,7 @@ body{
     border-radius: 50%;
   }
   @media(max-width: 449px){
-    .footer{background-color: #F59E0B;
+    .footer{
     width: 100%;
     text-align: center;
     height: 5rem;
