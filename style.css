@@ -1,8 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: rgb(240,7,113);
+      background: linear-gradient(90deg, rgba(240,7,113,1) 0%, rgba(213,81,199,1) 35%, rgba(0,212,255,1) 100%);
 }
 .footer{
-    background-color: #F59E0B;
     width: 100%;
     text-align: center;
     height: 5rem;
@@ -11,6 +12,7 @@ body{
     align-items: center;
     font-size: 1.2rem;
     line-height: 2rem;
+    color: #fff;
   }
   .logo{
     border-radius: 50%;
@@ -155,9 +157,6 @@ a {
   .sticky + .content {
     padding-top: 60px;
   }
-  .title{
-      background: linear-gradient(90deg, #00dbde, #fc00ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+  .main-body{
       
   }
