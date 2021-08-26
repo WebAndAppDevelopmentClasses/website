@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     background: rgb(240,7,113);
       background: linear-gradient(90deg, rgba(240,7,113,1) 0%, rgba(213,81,199,1) 35%, rgba(0,212,255,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 .footer{
     width: 100%;
@@ -159,4 +162,17 @@ a {
   }
   .main-body{
       
+  }
+  .glassmorphism{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+            overflow: hidden;
+            z-index: 10;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            margin-left: 1.%;
+            backdrop-filter: blur(15px);
   }
