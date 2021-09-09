@@ -1,7 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&effect=emboss');
 body{
     font-family: 'Poppins', sans-serif;
-    background: rgb(240,7,113);
-      background: linear-gradient(90deg, rgba(240,7,113,1) 0%, rgba(213,81,199,1) 35%, rgba(0,212,255,1) 100%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -112,7 +111,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 3rem;
+        top: 3.7rem;
         flex-direction: column;
         background-color: var(--clr-primary);
         width: 100%;
