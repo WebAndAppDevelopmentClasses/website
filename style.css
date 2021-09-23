@@ -5,6 +5,10 @@ body{
       justify-content: center;
       align-items: center;
 }
+::selection{
+	color: #fff;
+	background-color: rgba(245, 158, 11, 1);; 
+}
 .footer{
     width: 100%;
     text-align: center;
